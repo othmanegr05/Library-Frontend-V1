@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box
+}
+header{
+    height: 12vh;
+    background-color:#803e00 ;
+    position: fixed;
+
+}
+header table h1{
+    color: white;
+}
+header table{
+    width: 100%;
+    text-align: center;
+    padding-top: 2vh;
+    
+}
+table a{
+    text-decoration: none;
+    color: white;
+}
+#user1{
+    width: 50%;
+
+}
+#panier{
+    width: 30%;
+}
+header table tr:first-child{
+    color: #362a16;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+
+}
+form{
+    background-color: #f5f3dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+
+#container{
+    width: 25%;
+    background-color: #803e00 ;
+    border-radius: 3%;
+    height: 50vh;
+
+}
+#title h1{
+    text-align: center;
+    margin: 5%;
+    color: #f5f3dd;
+}
+#log{
+    width: 80%;
+    margin: auto;
+    height: 4.5vh;
+    margin-bottom:4vh ;
+}
+#log table{
+    width: 100%;
+    height: 100%;
+    outline: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: larger;
+    letter-spacing: 3px;
+
+}
+#tab tr td:first-child{
+    background-color: #f5f3dd;
+    border-radius: 10px;
+}
+table tr td {
+    cursor: pointer;
+}    
+
+input{
+    width: 80%;    
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    margin: 4%;
+    padding: 4%;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size:large;
+}
+#input1 :focus{
+    outline:none;
+    
+}
+#sub input{
+    font-size: 20px;
+    background-color: #f5f3dd;
+    cursor: pointer;
+    padding-bottom: 30px;
+
+}
+#lien{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#lien a{
+    text-decoration: none;
+    color: #f5f3dd;
+    text-decoration: underline;
+
+}
